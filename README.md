@@ -1,8 +1,6 @@
 # bawosc
 
-Modularized version of your script with **identical calculations / defaults / return formats**.
-
-Public API:
+Example:
 
 ```python
 from bawosc import DrivenHarmonicOscillator, BAWMode
