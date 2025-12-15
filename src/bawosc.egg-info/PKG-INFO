@@ -1,0 +1,33 @@
+Metadata-Version: 2.4
+Name: bawosc
+Version: 0.1.0
+Summary: Driven harmonic oscillator + BAW mode utilities (envelope + Green solvers).
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# bawosc
+
+Modularized version of your script with **identical calculations / defaults / return formats**.
+
+Public API:
+
+```python
+from bawosc import DrivenHarmonicOscillator, BAWMode
+from bawosc import time_at_frequency, chirp_with_window, chirp_force
+from bawosc import add_baw_info_box
+```
+
+Install (editable):
+
+```bash
+pip install -e .
+```
+
+Run tests:
+
+```bash
+pytest -q
+```

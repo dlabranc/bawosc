@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/bawosc/__init__.py
+src/bawosc.egg-info/PKG-INFO
+src/bawosc.egg-info/SOURCES.txt
+src/bawosc.egg-info/dependency_links.txt
+src/bawosc.egg-info/requires.txt
+src/bawosc.egg-info/top_level.txt
+src/bawosc/models/__init__.py
+src/bawosc/models/baw_mode.py
+src/bawosc/models/driven_oscillator.py
+src/bawosc/plotting/__init__.py
+src/bawosc/plotting/infobox.py
+src/bawosc/signals/__init__.py
+src/bawosc/signals/chirps.py
+tests/test_green_vs_ode.py
